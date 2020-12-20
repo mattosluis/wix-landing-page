@@ -28,15 +28,15 @@ export default function Body() {
     <>
       <FirstSection image={`url(${scubaDivingImg})`}>
         <FirstSectionContent>
-          <span>Wix Want You to</span>
-          <h1>Capture Your Dream Photo</h1>
+            <span data-aos="fade-down">Wix Want You to</span>
+            <h1 data-aos="fade-down">Capture Your Dream Photo</h1>
           <PrimaryButton href="#!">Submit Now</PrimaryButton>
         </FirstSectionContent>
       </FirstSection>
       <SecondSection image={`url(${skiImg})`}>
         <SecondSectionContent>
-          <h1>Make Your Dream Shoot a Reality</h1>
-          <p>
+          <h1 data-aos="fade-left">Make Your Dream Shoot a Reality</h1>
+          <p data-aos="fade-up">
             There`s a moment you`ve always wanted to capture,
              and Wix wants to make it happen - anywhere, anytime, 
              with any equipament. There are no limits to how big 
@@ -47,8 +47,8 @@ export default function Body() {
       </SecondSection>
       <ThirdSection image={`url(${hikingImg})`}>
         <ThirdSectionContent>
-          <h1>How It Works</h1>
-          <StepsSection>
+          <h1 data-aos="fade-down">How It Works</h1>
+          <StepsSection data-aos="fade-up" data-aos-delay="600">
             <span>1</span>
             <StepTitleAndDescription>
               <h3>Submit Your Wix Portifolio</h3>
@@ -58,7 +58,7 @@ export default function Body() {
               </p>
             </StepTitleAndDescription>
           </StepsSection>
-          <StepsSection>
+          <StepsSection data-aos="fade-up" data-aos-delay="1400">
             <span>2</span>
             <StepTitleAndDescription>
               <h3>Submit Your Wix Portifolio</h3>
@@ -68,7 +68,7 @@ export default function Body() {
               </p>
             </StepTitleAndDescription>
           </StepsSection>
-          <StepsSection>
+          <StepsSection data-aos="fade-up" data-aos-delay="2200">
             <span>3</span>
             <StepTitleAndDescription>
               <h3>Submit Your Wix Portifolio</h3>
@@ -83,9 +83,9 @@ export default function Body() {
       </ThirdSection>
       <FourthSection image={`url(${surfImg})`}>
         <FourthSectionContent>
-          <h1>New to Wix?</h1>
-          <h3>Create your stuning portifolio.</h3>
-          <p>
+          <h1 data-aos="fade-right">New to Wix?</h1>
+          <h3 data-aos="fade-up">Create your stuning portifolio.</h3>
+          <p data-aos="fade-up">
             Get started by choosing a template and use the Wix
             Pro Gallery to showcase your photography in the highest
             quality online.
@@ -95,7 +95,7 @@ export default function Body() {
       </FourthSection>
       <FifthSection image={`url(${parachutingImg})`}>
         <FifthSectionContent>
-          <h1>Your Dream Shoot Is Waiting For You</h1>
+          <h1 data-aos="fade-down">Your Dream Shoot Is Waiting For You</h1>
           <PrimaryButton href="#!">Submit Now</PrimaryButton>
         </FifthSectionContent>
       </FifthSection>
