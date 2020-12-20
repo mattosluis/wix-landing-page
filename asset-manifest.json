@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/wix-landing-page/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/wix-landing-page/static/js/main.67d056cb.chunk.js",
+    "main.js.map": "/wix-landing-page/static/js/main.67d056cb.chunk.js.map",
+    "runtime-main.js": "/wix-landing-page/static/js/runtime-main.8c963fe0.js",
+    "runtime-main.js.map": "/wix-landing-page/static/js/runtime-main.8c963fe0.js.map",
+    "static/css/2.ec02d681.chunk.css": "/wix-landing-page/static/css/2.ec02d681.chunk.css",
+    "static/js/2.5246e804.chunk.js": "/wix-landing-page/static/js/2.5246e804.chunk.js",
+    "static/js/2.5246e804.chunk.js.map": "/wix-landing-page/static/js/2.5246e804.chunk.js.map",
+    "static/js/3.fe859877.chunk.js": "/wix-landing-page/static/js/3.fe859877.chunk.js",
+    "static/js/3.fe859877.chunk.js.map": "/wix-landing-page/static/js/3.fe859877.chunk.js.map",
+    "index.html": "/wix-landing-page/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/wix-landing-page/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.ab7136cd.chunk.css.map": "/wix-landing-page/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.5246e804.chunk.js.LICENSE.txt": "/wix-landing-page/static/js/2.5246e804.chunk.js.LICENSE.txt",
+    "static/media/hiking.0ea400f7.jpg": "/wix-landing-page/static/media/hiking.0ea400f7.jpg",
+    "static/media/parachuting.4f60b293.jpg": "/wix-landing-page/static/media/parachuting.4f60b293.jpg",
+    "static/media/scuba.c742730b.jpg": "/wix-landing-page/static/media/scuba.c742730b.jpg",
+    "static/media/ski.bfc2b9e6.jpg": "/wix-landing-page/static/media/ski.bfc2b9e6.jpg",
+    "static/media/surf.78d28b71.jpg": "/wix-landing-page/static/media/surf.78d28b71.jpg",
+    "static/media/wix-logo.2d9d0dcc.png": "/wix-landing-page/static/media/wix-logo.2d9d0dcc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c963fe0.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.5246e804.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.67d056cb.chunk.js"
+  ]
+}
