@@ -68,7 +68,7 @@ export default function Body() {
               </p>
             </StepTitleAndDescription>
           </StepsSection>
-          <StepsSection data-aos="fade-up" data-aos-delay="2200">
+          <StepsSection data-aos="fade-up" data-aos-delay="2400">
             <span>3</span>
             <StepTitleAndDescription>
               <h3>Submit Your Wix Portifolio</h3>

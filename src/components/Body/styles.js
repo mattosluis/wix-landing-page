@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import colors from '../../global/colors';
+import { mobile, tablet } from "../../global/deviceSizes";
 
 export const FirstSection = styled.section(
   props => props.image && css`
@@ -27,6 +28,30 @@ export const FirstSectionContent = styled.div`
     margin-bottom: 5rem;
     color: ${colors.secondary};
     font-size: 7rem;
+  }
+
+  @media(max-width: ${tablet}) {
+    max-width: 35rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media(max-width: ${mobile}) {
+    max-width: 20rem;
+
+    span {
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 `;
 
@@ -61,6 +86,30 @@ export const SecondSectionContent = styled.div`
     color: ${colors.primary};
     font-size: 1.5rem;
   }
+
+  @media(max-width: ${tablet}) {
+    max-width: 25rem;
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  
+  @media(max-width: ${mobile}) {
+    max-width: 15rem;
+
+    p {
+      font-size: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export const ThirdSection = styled.section(
@@ -87,6 +136,22 @@ export const ThirdSectionContent = styled.div`
     color: ${colors.secondary};
     font-size: 7rem;
   }
+
+  @media(max-width: ${tablet}) {
+    max-width: 25rem;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media(max-width: ${mobile}) {
+    max-width: 15rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export const StepsSection = styled.div`
@@ -98,12 +163,48 @@ export const StepsSection = styled.div`
   span {
     font-size: 6rem;
   }
+
+  @media(max-width: ${tablet}) {
+    span {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media(max-width: ${mobile}) {
+    span {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 export const StepTitleAndDescription = styled.div`
   margin-left: 2rem;
   text-align: left;
   line-height: 2.5rem;
+
+  @media(max-width: ${tablet}) {
+    max-width: 25rem;
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media(max-width: ${mobile}) {
+    max-width: 25rem;
+
+    p {
+      font-size: 1rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
 `;
 
 export const FourthSection = styled.section(
@@ -136,6 +237,36 @@ export const FourthSectionContent = styled.div`
     line-height: 2.5rem;
     margin-bottom: 4rem;
   }
+
+  @media(max-width: ${tablet}) {
+    max-width: 25rem;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    p {
+      line-height: 1.5rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  @media(max-width: ${mobile}) {
+    max-width: 15rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      line-height: 1.2rem;
+      font-size: 1rem;
+    }
+  }
 `;
 
 export const FifthSection = styled.section(
@@ -162,5 +293,21 @@ export const FifthSectionContent = styled.div`
     color: ${colors.secondary};
     font-size: 7rem;
     margin-bottom: 4rem;
+  }
+
+  @media(max-width: ${tablet}) {
+    max-width: 40rem;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media(max-width: ${mobile}) {
+    max-width: 20rem;
+
+    h1 {
+      font-size: 2rem;
+    }
   }
 `;
